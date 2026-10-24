@@ -40,11 +40,17 @@ Designed with high-scale technical servers in mind, it features an **Internal Au
 ## 📸 Showcase Gallery
 
 <div align="center">
-  <img src="assets/gallery_gui.png" alt="Interactive GUI" width="85%" />
+  <h3>In-Game Configuration Menu</h3>
+  <img src="assets/gallery_gui.png" alt="In-Game Configuration Menu" width="85%" />
   <br/><br/>
-  <img src="assets/gallery_farming.png" alt="Farm Automation" width="85%" />
+  <h3>54-Slot Visual Item Selector</h3>
+  <img src="assets/gallery_selector.png" alt="54-Slot Visual Item Selector" width="85%" />
   <br/><br/>
-  <img src="assets/gallery_protection.png" alt="Enterprise Security" width="85%" />
+  <h3>Underwater Kelp & Multi-Crop Farm Automation</h3>
+  <img src="assets/gallery_farming.png" alt="Underwater Kelp Farm Automation" width="85%" />
+  <br/><br/>
+  <h3>Direct Container Injection (Zero Item Spills)</h3>
+  <img src="assets/gallery_protection.png" alt="Direct Container Injection" width="85%" />
 </div>
 
 ---

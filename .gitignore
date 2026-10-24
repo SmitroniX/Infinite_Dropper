@@ -14,3 +14,5 @@ target/
 .DS_Store
 *.log
 generate_gallery_images.py
+generate_real_ingame_screenshots.py
+create_ingame_screenshots.py
