@@ -1,0 +1,109 @@
+# ===================================================
+# InfiniteDropper Plugin Configuration
+# Developed by SmitroniX
+# ===================================================
+
+# Item Restriction Mode: WHITELIST or BLACKLIST
+# WHITELIST: Only items listed under 'whitelist' can be dispensed infinitely. (Recommended for farm safety)
+# BLACKLIST: All items EXCEPT those listed under 'blacklist' can be used.
+restriction-mode: "WHITELIST"
+
+whitelist:
+  - BONE_MEAL
+  - WHEAT_SEEDS
+  - CARROT
+  - POTATO
+  - PUMPKIN_SEEDS
+  - MELON_SEEDS
+  - BEETROOT_SEEDS
+  - TORCH_FLOWER_SEEDS
+  - PITCHER_POD
+  - SUGAR_CANE
+  - BAMBOO
+  - CACTUS
+  - SWEET_BERRIES
+  - GLOW_BERRIES
+  - KELP
+  - OAK_SAPLING
+  - SPRUCE_SAPLING
+  - BIRCH_SAPLING
+  - JUNGLE_SAPLING
+  - ACACIA_SAPLING
+  - DARK_OAK_SAPLING
+  - CHERRY_SAPLING
+  - MANGROVE_PROPAGULE
+  - ARROW
+  - SPECTRAL_ARROW
+  - FIREWORK_ROCKET
+  - WATER_BUCKET
+  - DIRT
+  - COBBLESTONE
+  - REDSTONE
+
+blacklist:
+  - DIAMOND
+  - DIAMOND_BLOCK
+  - NETHERITE_INGOT
+  - NETHERITE_BLOCK
+  - NETHERITE_SCRAP
+  - ANCIENT_DEBRIS
+  - EMERALD
+  - EMERALD_BLOCK
+  - GOLD_INGOT
+  - GOLD_BLOCK
+  - IRON_INGOT
+  - IRON_BLOCK
+  - SHULKER_BOX
+  - WHITE_SHULKER_BOX
+  - ORANGE_SHULKER_BOX
+  - MAGENTA_SHULKER_BOX
+  - LIGHT_BLUE_SHULKER_BOX
+  - YELLOW_SHULKER_BOX
+  - LIME_SHULKER_BOX
+  - PINK_SHULKER_BOX
+  - GRAY_SHULKER_BOX
+  - LIGHT_GRAY_SHULKER_BOX
+  - CYAN_SHULKER_BOX
+  - PURPLE_SHULKER_BOX
+  - BLUE_SHULKER_BOX
+  - BROWN_SHULKER_BOX
+  - GREEN_SHULKER_BOX
+  - RED_SHULKER_BOX
+  - BLACK_SHULKER_BOX
+  - SPAWNER
+  - TNT
+  - TOTEM_OF_UNDYING
+  - ENCHANTED_GOLDEN_APPLE
+  - END_CRYSTAL
+  - DRAGON_EGG
+  - BEACON
+  - NETHER_STAR
+
+# Auto-Clock (No-Redstone Mode) Settings
+auto-clock:
+  enabled: true
+  # Default interval in ticks (20 ticks = 1 second)
+  default-interval-ticks: 20
+  # Minimum allowed interval to protect server TPS (e.g. 5 ticks = 4 drops/sec)
+  min-interval-ticks: 5
+
+# Direct Container Injection:
+# When facing a Chest, Hopper, or Barrel directly, inject items straight into the container
+# instead of spawning floating item entities into the world (reduces entity lag significantly).
+direct-container-injection: true
+
+# Security & Protection
+protection:
+  # Prevents pistons from pushing or pulling infinite blocks
+  piston-immune: true
+  # Prevents TNT, Creepers, or Withers from destroying the block
+  explosion-immune: true
+  # Only admins with 'infinitedropper.admin' can open the dropper inventory/GUI
+  admin-only-open: true
+  # Maximum infinite blocks allowed per chunk (0 for unlimited)
+  max-per-chunk: 8
+
+# Visual & Audio Feedback
+effects:
+  particles: true
+  sounds: true

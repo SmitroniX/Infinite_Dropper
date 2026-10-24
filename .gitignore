@@ -1,0 +1,15 @@
+# Proprietary Source Code (Protected / Hidden)
+src/
+pom.xml
+upload_to_modrinth.py
+
+# Build artifacts
+target/
+*.class
+
+# IDE & OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+*.log
