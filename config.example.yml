@@ -107,3 +107,10 @@ protection:
 effects:
   particles: true
   sounds: true
+
+# Automatic Update Alerts
+update-checker:
+  # Check for updates asynchronously on startup and reload
+  enabled: true
+  # Alert server administrators when joining if a new release is available
+  notify-admins-on-join: true

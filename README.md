@@ -29,6 +29,7 @@ Designed with high-scale technical servers in mind, it features an **Internal Au
 - **🌾 Smart Kelp & Crop Fertilization:** Facing underwater **Kelp**, **Sugar Cane**, **Bamboo**, or crops directly fertilizes and grows them on each pulse without wasting items.
 - **⚙️ Interactive GUI with In-Menu Item Selector:** Sneak + Right-Click to open a custom settings menu. Click Slot 10 to open a 54-slot **Allowed Item Selector** to pick Bone Meal, Seeds, or Arrows with a single click, or click any item in your player inventory!
 - **⚡ In-World Auto-Conversion:** Server admins can Sneak + Right-Click **any** vanilla dropper or dispenser in the world to convert it into an Infinite block on the fly!
+- **🔔 Automatic Update Alert System:** Checks Modrinth and GitHub for new releases asynchronously on startup and reload. Notifies admins and operators in chat upon joining with clickable update links.
 - **🛡️ Strict Item Restrictions (Whitelist & Blacklist):** Disallows high-value items (Diamonds, Netherite, Shulkers, TNT) to prevent economy duplication while allowing farm essentials.
 - **💥 Grief & Exploit Immune:** Immune to explosions (TNT, Creepers, Withers) and cannot be pushed/pulled by pistons.
 - **🔒 Admin-Only Access:** Non-admins cannot give, place, break, or tamper with Infinite Droppers.
@@ -109,6 +110,11 @@ protection:
 effects:
   particles: true
   sounds: true
+
+# Automatic Update Alerts
+update-checker:
+  enabled: true
+  notify-admins-on-join: true
 ```
 
 ---

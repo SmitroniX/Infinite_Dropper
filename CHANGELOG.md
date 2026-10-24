@@ -21,6 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Added automatic growth stage advancing for Sugar Cane, Bamboo, and ageable crops (Wheat, Carrots, Potatoes, Beetroots).
 - **In-World Shift + Right-Click Auto-Conversion:**
   - Server administrators can now Sneak + Right-Click **any** vanilla Dropper or Dispenser in the world to automatically convert it into an Infinite Dropper/Dispenser and open the GUI immediately.
+- **Automatic Update Alert System:**
+  - Added an asynchronous update checking engine that queries Modrinth and GitHub for new releases without impacting server TPS.
+  - Automatically notifies server operators in chat upon joining with clickable update links and plays an alert chime.
 - **Instant Inventory Selection:**
   - Clicking any allowed item in your player inventory while inside the Settings GUI now instantly selects and locks it in as the infinite supply.
 
