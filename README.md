@@ -5,7 +5,7 @@
   <p><strong>A high-performance, administrator-controlled Infinite Dropper & Dispenser plugin for Paper, Purpur, Spigot, and Folia (Minecraft 1.20 - 1.21.4+ / 26.3).</strong></p>
 
   [![Modrinth](https://img.shields.io/badge/Modrinth-Available-00AF5C?style=for-the-badge&logo=modrinth)](https://modrinth.com/plugin/infinite-dropper)
-  [![Version](https://img.shields.io/badge/Release-v1.0.2-blue?style=for-the-badge)](https://github.com/SmitroniX/Infinite_Dropper/releases)
+  [![Version](https://img.shields.io/badge/Release-v1.0.3-blue?style=for-the-badge)](https://github.com/SmitroniX/Infinite_Dropper/releases)
   [![Platform](https://img.shields.io/badge/Platform-Paper%20%7C%20Purpur%20%7C%20Spigot%20%7C%20Folia-orange?style=for-the-badge)](#)
   [![Author](https://img.shields.io/badge/Developer-Smitronix-purple?style=for-the-badge)](https://github.com/SmitroniX)
   [![License](https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge)](#)
@@ -27,7 +27,7 @@ Designed with high-scale technical servers in mind, it features an **Internal Au
 - **🔄 Unlimited Auto-Replenishing Supply:** Place or select an allowed item (e.g. Bone Meal). Every pulse dispenses the item while instantly locking and replenishing the stack at 64 so it never runs out.
 - **⏱️ Built-in Auto-Clock (Zero Redstone Lag):** Toggleable internal pulsing mode dispenses automatically every set interval (e.g. 0.5s, 1s, 2s) with **no redstone wiring or comparator loops needed**.
 - **📦 Direct Container Injection:** Facing a Chest, Hopper, or Barrel directly injects the items straight into the container instead of dropping loose entities on the ground.
-- **🌾 Smart Kelp & Crop Fertilization:** Facing underwater **Kelp**, **Sugar Cane**, **Bamboo**, or crops directly fertilizes and grows them on each pulse without wasting items.
+- **🌾 Zero-Drop Plant Feeding & Growth:** Facing crops, underwater **Kelp**, **Sugar Cane**, **Bamboo**, stems, or saplings directly fertilizes them. When plants reach full maturity or cannot grow further, bone meal is absorbed with **zero item entities dropped on the floor**, completely preventing entity lag.
 - **⚙️ Interactive GUI with In-Menu Item Selector:** Sneak + Right-Click to open a custom settings menu. Click Slot 10 to open a 54-slot **Allowed Item Selector** to pick Bone Meal, Seeds, or Arrows with a single click, or click any item in your player inventory!
 - **⚡ In-World Auto-Conversion:** Server admins can Sneak + Right-Click **any** vanilla dropper or dispenser in the world to convert it into an Infinite block on the fly!
 - **🔔 Automatic Update Alert System:** Checks Modrinth and GitHub for new releases asynchronously on startup and reload. Notifies admins and operators in chat upon joining with clickable update links.
@@ -107,6 +107,10 @@ auto-clock:
   min-interval-ticks: 5
 
 direct-container-injection: true
+
+# Farming & Crop Fertilization (Zero Entity Drops)
+farming:
+  prevent-bonemeal-drop: true
 
 protection:
   piston-immune: true

@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.3] - 2026-10-24
+
+### Added
+- **Zero-Entity-Drop Plant Feeding Engine (`farming.prevent-bonemeal-drop`):**
+  - Bone meal dispensed towards crops, kelp, sugar cane, bamboo, saplings, stems, and sea pickles is absorbed directly into the plant.
+  - When crops/plants reach full maturity or cannot grow further, bone meal is consumed without dropping any item entities onto the ground, completely eliminating floor entity lag in high-speed automated farms.
+  - Added multi-block plant resolution: automatically detects crops on farmland/sand/dirt directly adjacent to the dispenser face, as well as underwater kelp columns.
+  - Added empty-air dispense safety guard: dispensers with bone meal will not spew floating items into empty air or invalid blocks if facing away from farm beds.
+
+---
+
 ## [1.0.2] - 2026-10-24
 
 ### Added
