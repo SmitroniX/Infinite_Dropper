@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.2] - 2026-10-24
+
+### Added
+- **Official Developer Credit:**
+  - Formally credited developer **Smitronix** across `plugin.yml`, the `/id help` command menu, and the server startup banner.
+- **Server Console Plugin Startup Banner:**
+  - Beautiful formatted console banner displayed upon startup with ASCII typography, developer attribution (**Smitronix**), server platform diagnostics, and active feature verification indicators (Auto-Clock, Direct Container Injection, Underwater Kelp & Crop Fertilization, 54-Slot GUI Item Selector, Modrinth & GitHub Async Update Checker).
+- **Console Shutdown Diagnostics:**
+  - Added clean shutdown logging confirming all active infinite blocks are safely persisted to world NBT data before container stops.
+
+---
+
 ## [1.0.1] - 2026-10-24
 
 ### Added
@@ -26,6 +38,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Automatically notifies server operators in chat upon joining with clickable update links and plays an alert chime.
 - **Instant Inventory Selection:**
   - Clicking any allowed item in your player inventory while inside the Settings GUI now instantly selects and locks it in as the infinite supply.
+
+---
+
+## [1.0.2] - 2026-10-24
+
+### Added
+- **Official Developer Credit:**
+  - Formally credited developer **Smitronix** across `plugin.yml`, the `/id help` command menu, and the server startup banner.
+- **Server Console Plugin Startup Banner:**
+  - Beautiful formatted console banner displayed upon startup with ASCII typography, developer attribution (**Smitronix**), server platform diagnostics, and active feature verification indicators (Auto-Clock, Direct Container Injection, Underwater Kelp & Crop Fertilization, 54-Slot GUI Item Selector, Modrinth & GitHub Async Update Checker).
+- **Console Shutdown Diagnostics:**
+  - Added clean shutdown logging confirming all active infinite blocks are safely persisted to world NBT data before container stops.
 
 ---
 

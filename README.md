@@ -5,8 +5,9 @@
   <p><strong>A high-performance, administrator-controlled Infinite Dropper & Dispenser plugin for Paper, Purpur, Spigot, and Folia (Minecraft 1.20 - 1.21.4+ / 26.3).</strong></p>
 
   [![Modrinth](https://img.shields.io/badge/Modrinth-Available-00AF5C?style=for-the-badge&logo=modrinth)](https://modrinth.com/plugin/infinite-dropper)
-  [![Version](https://img.shields.io/badge/Release-v1.0.1-blue?style=for-the-badge)](https://github.com/SmitroniX/Infinite_Dropper/releases)
+  [![Version](https://img.shields.io/badge/Release-v1.0.2-blue?style=for-the-badge)](https://github.com/SmitroniX/Infinite_Dropper/releases)
   [![Platform](https://img.shields.io/badge/Platform-Paper%20%7C%20Purpur%20%7C%20Spigot%20%7C%20Folia-orange?style=for-the-badge)](#)
+  [![Author](https://img.shields.io/badge/Developer-Smitronix-purple?style=for-the-badge)](https://github.com/SmitroniX)
   [![License](https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge)](#)
 </div>
 
@@ -133,6 +134,13 @@ Open an issue on the [GitHub Issue Tracker](https://github.com/SmitroniX/Infinit
 
 ---
 
+## 👨‍💻 Author & Developer
+
+* **Lead Developer:** **Smitronix** ([GitHub @SmitroniX](https://github.com/SmitroniX))
+* **Repository:** [SmitroniX/Infinite_Dropper](https://github.com/SmitroniX/Infinite_Dropper)
+
+---
+
 ## 📄 License
 
-Distributed under the MIT License. Copyright (c) 2026 SmitroniX.
+Distributed under the MIT License. Copyright (c) 2026 Smitronix.
