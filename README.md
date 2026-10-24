@@ -34,6 +34,18 @@ Designed with high-scale technical servers in mind, it features an **Internal Au
 
 ---
 
+## 📸 Showcase Gallery
+
+<div align="center">
+  <img src="assets/gallery_gui.png" alt="Interactive GUI" width="85%" />
+  <br/><br/>
+  <img src="assets/gallery_farming.png" alt="Farm Automation" width="85%" />
+  <br/><br/>
+  <img src="assets/gallery_protection.png" alt="Enterprise Security" width="85%" />
+</div>
+
+---
+
 ## 🎮 Commands & Permissions
 
 | Command | Permission | Description |
