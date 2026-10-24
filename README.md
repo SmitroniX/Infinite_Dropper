@@ -119,6 +119,13 @@ effects:
 
 ---
 
+## 🐛 Bug Reports & Support
+
+Encountered an issue or have a feature request?  
+Open an issue on the [GitHub Issue Tracker](https://github.com/SmitroniX/Infinite_Dropper/issues).
+
+---
+
 ## 📄 License
 
 Distributed under the MIT License. Copyright (c) 2026 SmitroniX.
