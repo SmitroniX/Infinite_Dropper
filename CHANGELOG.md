@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.1] - 2026-10-24
+
+### Added
+- **Interactive In-GUI Item Selector:**
+  - Added a dedicated 54-slot visual Item Selection Menu accessible by clicking Slot 10 in the Settings GUI.
+  - Displays all server-allowed farm items (Bone Meal, Wheat Seeds, Carrots, Potatoes, Melon/Pumpkin Seeds, Arrows, Saplings, Buckets) with Bone Meal conveniently pinned at Slot 0.
+  - Fully supports multi-page browsing and instant item selection with a single click.
+- **Dedicated Underwater Kelp Growth Engine:**
+  - Dispensing Bone Meal directly into `KELP` or `KELP_PLANT` water columns now actively grows the kelp upward stage by stage.
+  - Spawns green happy villager particles and plays bone meal crunch sound effects.
+- **Enhanced Multi-Crop Fertilization:**
+  - Added automatic growth stage advancing for Sugar Cane, Bamboo, and ageable crops (Wheat, Carrots, Potatoes, Beetroots).
+- **In-World Shift + Right-Click Auto-Conversion:**
+  - Server administrators can now Sneak + Right-Click **any** vanilla Dropper or Dispenser in the world to automatically convert it into an Infinite Dropper/Dispenser and open the GUI immediately.
+- **Instant Inventory Selection:**
+  - Clicking any allowed item in your player inventory while inside the Settings GUI now instantly selects and locks it in as the infinite supply.
+
+---
+
 ## [1.0.0] - 2026-10-24
 
 ### Added
